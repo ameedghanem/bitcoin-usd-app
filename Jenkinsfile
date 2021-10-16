@@ -20,8 +20,8 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker tag bitcoin-app ameedsg/bitcoin-app'
-				sh 'docker push ameedsg/bitcoin-app'
+				sh 'docker tag bitcoin-app $DOCKERHUB_CREDENTIALS_USR/bitcoin-app'
+				sh 'docker push $DOCKERHUB_CREDENTIALS_USR/bitcoin-app'
 			}
 		}
 	}
