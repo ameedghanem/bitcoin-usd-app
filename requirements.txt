@@ -1,0 +1,4 @@
+beautifulsoup4
+flask==2.0.2
+matplotlib==3.4.3
+requests==2.26.0
