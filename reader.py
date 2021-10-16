@@ -8,7 +8,7 @@ BITCOIN_TO_USD_URI = "https://www.google.com/search?q=bitcoin+in+usd&ei=iUxoYYf5
 
 def get_doc(uri=BITCOIN_TO_USD_URI):
 	"""
-	 It sends a get request to the gievne uri and returns the proper html file 
+	 It sends a get request to the given uri and returns the proper html file 
 	"""
 	res = requests.get(uri)
 	if res.status_code != 200:
