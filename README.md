@@ -28,4 +28,4 @@ $ docker run -d -it -p5000:5000 bitcoin-app
     ```
     $ sudo /etc/init.d/jenkins restart
     ```
-  - Most importantly, make sure that you have saved the docker hub credentials in jenkins
+  - Most importantly, make sure that you have saved the [docker hub credentials in jenkins](https://dzone.com/articles/building-docker-images-to-docker-hub-using-jenkins)
