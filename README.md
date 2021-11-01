@@ -7,7 +7,7 @@ It also shows a scatter plot to demonstrate the decreases/increases of the price
 $ git clone git@github.com:ameedghanem/bitcoin-usd-app.git
   ...
 $ cd bitcoin-usd-app/
-```
+``` 
 
 ## Deployment
 In order to run the app you need at first to build the docker image and run it.
@@ -16,3 +16,11 @@ Note: building the docker image takes some time
 ```
 $ docker build -t bitcoin-app .
 $ docker run -d -it -p5000:5000 bitcoin-app
+
+## About the Jenkins file
+### This jenkins file runs a job that pushes the created image to your Dockerhub account
+  - Make sure you add the user jenkins to the group docker by running the following command:
+    $ sudo usermod -a -G docker jenkins
+  - Restart jenkins by running the following command:
+    $ sudo /etc/init.d/jenkins restart
+  - Most importantly, make sure that you have saved the docker hub credentials in jenkins
