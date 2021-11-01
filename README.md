@@ -13,9 +13,10 @@ $ cd bitcoin-usd-app/
 In order to run the app you need at first to build the docker image and run it.
 Go then to http://127.0.0.1:5000/ to view the app.<br />
 Note: building the docker image takes some time
-
+```
 $ docker build -t bitcoin-app .
 $ docker run -d -it -p5000:5000 bitcoin-app
+```
 
 ## About the Jenkins file
 ### This jenkins file runs a job that pushes the created image to your Dockerhub account
