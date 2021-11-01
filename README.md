@@ -23,7 +23,7 @@ $ docker run -d -it -p5000:5000 bitcoin-app
 ```
 
 ## About the Jenkins file
-### This jenkins file runs a job that pushes the created image to your Dockerhub account
+### This jenkins file creates a job that pushes the created image to your Dockerhub account
   - Make sure you add the user jenkins to the group docker by running the following command:
     ```
     $ sudo usermod -a -G docker jenkins
