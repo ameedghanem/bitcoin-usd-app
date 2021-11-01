@@ -1,6 +1,10 @@
 # Bitcoin-USD-App
 This is a simple web application which shows the user the price of the bitcoin in usd and the average price in the last 10 months.
-It also shows a scatter plot to demonstrate the decreases/increases of the price through these 10 months. 
+It also shows a scatter plot to demonstrate the decreases/increases of the price through these 10 months.
+
+## Prerequisties
+  jenkins (for using the jenkins file)
+  docker (for building image and running)
 
 ## Installation
 ```
