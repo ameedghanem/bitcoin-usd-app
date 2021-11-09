@@ -8,7 +8,7 @@ It also shows a scatter plot to demonstrate the decreases/increases of the price
 
 ## Installation
 ```
-$ git clone git@github.com:ameedghanem/bitcoin-usd-app.git
+$ git clone https://github.com/ameedghanem/bitcoin-usd-app.git
   ...
 $ cd bitcoin-usd-app/
 ``` 
